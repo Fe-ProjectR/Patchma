@@ -728,7 +728,7 @@ elseif k == "l" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/brick.ogg")
+        sound69.SoundId = customasset("Dances/brick.mp3")
         sound69:Play()
         playanim(75802192289302)
     else
@@ -740,7 +740,7 @@ elseif k == "z" then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/myman.ogg")
+        sound69.SoundId = customasset("Dances/myman.mp3")
         sound69:Play()
         playanim(113329473982836)
     else
