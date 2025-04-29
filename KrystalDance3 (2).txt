@@ -742,7 +742,7 @@ elseif k == "z" then
         task.wait(.005)
         sound69.SoundId = customasset("Dances/myman.mp3")
         sound69:Play()
-        playanim(113329473982836,0.1)
+        playanim(113329473982836,0.4)
     else
         stopanim()
         sound69:Stop()
