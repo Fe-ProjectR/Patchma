@@ -723,6 +723,30 @@ elseif k == "h" then
         stopanim()
         sound69:Stop()
     end
+elseif k == "l" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/brick.ogg")
+        sound69:Play()
+        playanim(75802192289302)
+    else
+        stopanim()
+        sound69:Stop()
+    end
+elseif k == "z" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/myman.ogg")
+        sound69:Play()
+        playanim(113329473982836)
+    else
+        stopanim()
+        sound69:Stop()
+    end
 elseif k == "g" then 
     if dancing == false then 
         stopanim()
