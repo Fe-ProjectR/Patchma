@@ -759,6 +759,33 @@ elseif k == "g" then
         stopanim()
         sound69:Stop()
     end
+elseif k == "v" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(134550396977970,0.5)
+    else
+        stopanim()
+    end
+elseif k == "c" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(131726076631029,0.5)
+    else
+        stopanim()
+    end
+elseif k == "x" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(88317116373090,0.5)
+    else
+        stopanim()
+    end
                                 elseif k == [[f]] then 
                                     if dancing == false then 
                                         stopanim()
