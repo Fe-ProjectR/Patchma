@@ -768,12 +768,12 @@ elseif k == "v" then
     else
         stopanim()
     end
-elseif k == "c" then 
+elseif k == "b" then 
     if dancing == false then 
         stopanim()
         dancing = true
         task.wait(.005)
-        playanim(131726076631029,0.5)
+        playanim(87004481039573)
     else
         stopanim()
     end
