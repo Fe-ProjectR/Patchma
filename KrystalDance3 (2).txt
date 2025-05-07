@@ -777,6 +777,18 @@ elseif k == "b" then
     else
         stopanim()
     end
+elseif k == "p" then 
+    if dancing == false then 
+        stopanim()
+        sound69.SoundId = customasset("Dances/whoyou.mp3")
+        sound69:Play()
+        dancing = true
+        task.wait(.005)
+        playanim(137714761719347)
+    else
+        stopanim()
+        sound69:Stop()
+    end
 elseif k == "x" then 
     if dancing == false then 
         stopanim()
