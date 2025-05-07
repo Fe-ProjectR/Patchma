@@ -777,7 +777,7 @@ elseif k == "b" then
     else
         stopanim()
     end
-elseif k == "," then 
+elseif k == "n" then 
     if dancing == false then 
         stopanim()
         dancing = true
