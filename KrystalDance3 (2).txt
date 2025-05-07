@@ -747,6 +747,18 @@ elseif k == "z" then
         stopanim()
         sound69:Stop()
     end
+elseif k == "," then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        sound69.SoundId = customasset("Dances/stephanie.mp3")
+        sound69:Play()
+        playanim(132885213250574)
+    else
+        stopanim()
+        sound69:Stop()
+    end
 elseif k == "g" then 
     if dancing == false then 
         stopanim()
@@ -776,18 +788,6 @@ elseif k == "b" then
         playanim(87004481039573)
     else
         stopanim()
-    end
-elseif k == "n" then 
-    if dancing == false then 
-        stopanim()
-        dancing = true
-        task.wait(.005)
-        sound69.SoundId = customasset("Dances/stephanie.mp3")
-        sound69:Play()
-        playanim(132885213250574)
-    else
-        stopanim()
-        sound69:Stop()
     end
 elseif k == "p" then 
     if dancing == false then 
