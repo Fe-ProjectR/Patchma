@@ -747,12 +747,12 @@ elseif k == "z" then
         stopanim()
         sound69:Stop()
     end
-elseif k == "," then 
+elseif k == "5" then 
     if dancing == false then 
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = customasset("Dances/stephanie.mp3")
+        sound69.SoundId = customasset("Dances/Stephanie.mp3")
         sound69:Play()
         playanim(132885213250574)
     else
