@@ -752,6 +752,8 @@ elseif k == "g" then
         stopanim()
         dancing = true
         task.wait(.005)
+        sound69.SoundId = "rbxassetid://716723007542"
+        sound69:Play()
         sound69.SoundId = customasset("Dances/tryna.mp3")
         sound69:Play()
         playanim(14887006269)
@@ -774,6 +776,15 @@ elseif k == "b" then
         dancing = true
         task.wait(.005)
         playanim(87004481039573)
+    else
+        stopanim()
+    end
+elseif k == "g" then 
+    if dancing == false then 
+        stopanim()
+        dancing = true
+        task.wait(.005)
+        playanim(132885213250574)
     else
         stopanim()
     end
