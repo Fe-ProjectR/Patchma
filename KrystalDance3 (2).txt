@@ -782,7 +782,7 @@ elseif k == "," then
         stopanim()
         dancing = true
         task.wait(.005)
-        sound69.SoundId = "rbxassetid://716723007542"
+        sound69.SoundId = customasset("Dances/stephanie.mp3")
         sound69:Play()
         playanim(132885213250574)
     else
