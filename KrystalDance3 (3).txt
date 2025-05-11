@@ -874,7 +874,7 @@ end
         sound69.SoundId = customasset("Dances/steph.mp3")
         timeposcur = sound69.TimePosition 
 sound69:Play()
-        playanim(132885213250574)
+        playanim(132885213250574,1.5)
     else
         stopanim()
         
